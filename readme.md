@@ -46,7 +46,7 @@ import treeSitterQuery from "https://esm.sh/gh/jeff-hykin/common_tree_sitter_lan
     - `tree-sitter build --wasm --output 'out.wasm'`
     - `npm run build`
 - thats the main step! there should now be a .wasm file somewhere in that project
-- last kinda-optinal step:
+- last kinda-optimal step:
     - if you're making a CLI tool, a web tool, or a library for others to use, you probably want the wasm file to be bundle-able
         - a quick way to do that is:
             - clone this repo
